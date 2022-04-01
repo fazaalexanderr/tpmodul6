@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json;
 
 namespace tpmodul6_kelompok_7
 {
@@ -6,7 +7,8 @@ namespace tpmodul6_kelompok_7
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DataMahasiswa1302204062 Data1 = new DataMahasiswa1302204062();
+            Data1.ReadJSON();
         }
     }
 }
